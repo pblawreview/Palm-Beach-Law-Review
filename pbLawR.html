@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Palm Beach Law Review</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeedf5;
+}
+
+.top-container {
+  background-color: #131059;
+  padding: 30px;
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #eeedf5;
+  font-size: 30px
+}
+
+.header {
+  padding: 10px 100px;
+  background: #131059;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+	padding : 102px;
+}
+
+a:link {
+  color: #fcfcb6;
+}
+
+a:visited {
+  color: #fcfcb6;
+}
+
+a:hover {
+  color: #eeedf5;
+}
+
+a:active {
+  color: #ed425c;
+}
+a{
+	font-size:20px;
+}
+h2{
+    display: inline;
+}
+
+p {
+	font-family : "Times New Roman", Times, serif;
+	font-size : 20px;
+}
+
+</style>
+<body>
+<div class="top-container">
+  <h1>Palm Beach Law Review</h1>
+</div>
+<div class="header" id="myHeader">
+	<a href="https://www.google.com"><h2 style="font-family:tempus sans itc;">Meet The Editors</h2></a><h2 style="color:#131059">---------------</h2><a href="https://www.ahschool.com"><h2 style="font-family:tempus sans itc;">Newest Additions</h2></a><h2 style="color:#131059">---------------</h2><a href="https://www.google.com"><h2 style="font-family:tempus sans itc;">Current Cases</h2></a><h2 style="color:#131059">---------------</h2><a href="https://www.google.com"><h2 style="font-family:tempus sans itc;">Mock Trial</h2></a><h2 style="color:#131059">---------------</h2><a href="https://www.google.com"><h2 style="font-family:tempus sans itc;">Archives</h2></a><h2 style="color:#131059">---------------</h2><a href="https://www.google.com"><h2 style="font-family:tempus sans itc;">Pre-Law Portal</h2></a>
+</div>
+<center><img src="https://www.ahschool.com/data/news/thumbs/1579.full.jpg" alt="American Heritage" height="300px" width="300px" style="border-style: solid;border-width: 5px;"></center>
+<div id="content">
+  <h1 style="text-decoration:underline;"><center>Our Mission</center></h1>
+  <p style="margin-left:40px; margin-right:40px"> &emsp; Despite the constrained efforts of civics and a few ambitious history teachers, the average person’s understanding of the law is quite limited. Sure, they know some of the big stuff—Brown v. Board of Education, Plessy v. Ferguson, and Roe v. Wade—but understanding their full meaning and depth along with many other cases still eludes many. That’s where we come in. The Palm Beach Law Review is dedicated to expanding people’s understanding of the law, courts, and how they affect us today.</p>
+  <p style="margin-left:40px; margin-right:40px">&emsp;The Palm Beach Law Review is composed of students from American Heritage High School who are committed to expanding the scope of our knowledge and understanding of the law and its many facets. As future law professors, judges, and possibly criminals, we feel that it is important to learn and discuss the cutting edge of law, including new technologies, theories, and bills that will rapidly change the field of law. We hope that in making this, we not only expand your knowledge, but also deepen our own comprehension of this fascinating world.</p>
+</div>
+<hr style="background-color: #131059;border-style:solid; border-width:2px; border-color:#131059">
+<h5 style="margin-left:40px; margin-right:40px">Contact Us:</h5>
+<h5 style="margin-left:50px; margin-right:40px">6200 Linton Blvd, Delray Beach, FL 33484</h5>
+<h5 style="margin-left:50px; margin-right:40px">Email us at pblawreview@gmail.com</h5>
+<h5 style="margin-left:50px; margin-right:40px">Or call us at 561-358-1233</h5>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
